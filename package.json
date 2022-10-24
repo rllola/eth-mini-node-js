@@ -1,0 +1,16 @@
+{
+  "name": "eth-mini-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/block": "^4.0.0",
+    "@ethereumjs/common": "^3.0.0",
+    "@ethereumjs/devp2p": "file:../ethereumjs-monorepo/packages/devp2p"
+  }
+}
